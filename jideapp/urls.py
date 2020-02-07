@@ -1,0 +1,15 @@
+from django.urls import path
+from .views import Maintain, Home, About, Ourwork, Testimony, Team, Contact, Services
+
+
+urlpatterns = [
+path('', Maintain, name="maintain"),
+path('index', Home, name="index"),
+path('about/', About, name="about"),
+path('ourwork', Ourwork, name="ourwork"),
+path('testimony', Testimony, name="testimony"),
+path('contact', Contact, name="contact"),
+path('team', Team, name="team"),
+path('services', Services, name="services"),
+
+]

@@ -1,0 +1,82 @@
+.message h4{
+  line-height: 0.97;
+  text-align: center;
+  color:teal;
+  padding-top: 24px;
+  font-size: 55px;
+  font-family: cursive; /*fantasy*/
+}
+.message p{
+  text-align: center;
+  color:green;
+  padding-top: ;
+  font-size: ;
+  font-family: monospace;
+}
+/* .message{
+  background-color: wheat;
+} */
+.navtop {
+  /* background-color: #6f42c1; */
+  background-color: rgb(25, 0, 53);
+  font-family:fantasy;
+}
+.navtop li{
+  display: inline;
+  color: white;
+
+}
+.navtop li a{
+  color: gold;
+  padding: 12px;
+  font-size: 21px;
+  text-decoration: none;
+}
+
+.navtop li a:hover{
+  text-decoration: none;
+  color:wheat;
+  background-color: ;
+
+}
+navtopright{ /*add . to float about and testimony to right*/
+  float: right;
+  padding-right: 7px;
+}
+
+/*========FOOTER START=======*/
+
+footer{
+  overflow: hidden;
+  /* background-color: #6f42c1; */
+  background-color: rgb(25, 0, 53);
+  color: white;
+  padding: 3px;
+  font-family: monospace;
+
+}
+.content1 a{
+  color: white;
+  font-family: Courier;
+}
+.content1 a:hover{
+  color: white;
+  text-decoration: none;
+}
+.content, .content1{
+  padding-left:23px;
+  font-size: 15px;
+}
+.content a, .author a{
+  color:gold;
+  text-decoration: none;
+}
+.content a:hover, .author a:hover{
+  text-decoration: none;
+  font-size: 17px;
+  color: gold;
+}
+.author{
+  color:black;
+  text-align: center;
+}

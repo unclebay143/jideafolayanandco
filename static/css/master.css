@@ -1,0 +1,113 @@
+body{
+  font-family: cursive;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-image: url('static/img/jideandco.png');
+
+}
+.trainalert{
+  background-color:;
+    width:990px ; /* What I call the see-through window below */
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size:23px;
+
+    color:teal;
+    text-shadow: #000 1px 1px 0;
+    box-sizing: border-box;
+
+    /* This is to make the text move across the see-through window */
+    /* in 20 seconds (=> scrolling speed) */
+    animation: trainalert 33s linear infinite;
+    -webkit-animation: trainalert 33s linear infinite;
+
+    /* This is for Safari that tends to render jerky marquees */
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+
+}
+
+/* This is to stop scrolling when hovering over the text */
+.trainalert:hover {
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused
+}
+
+/* Make it move */
+/* If omitted, IE will not scroll the text  */
+@keyframes trainalert {
+    0% { text-indent: 26em }
+    100% { text-indent: -55em }
+
+}
+
+/* Make it move */
+/* If omitted, Chrome (possibly FF) will not scroll the text  */
+@-webkit-keyframes trainalert {
+    0% { text-indent: 26em }
+    100% { text-indent: -55em }
+
+}
+
+}
+.info{
+  text-align: center;
+  padding-top: 48px;
+  color: ;
+  padding-bottom:200px;
+  font-family: cursive;
+
+}
+.info a{
+  color:gold;
+  text-decoration: none;
+  font-size: 19px;
+}
+.info a:hover{
+  color:gold;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+
+
+.jideafolayan img{
+  border-radius: 114px;
+  width: 190px;
+  height: 250px;
+  margin-top: 8px;
+  /* padding: 12px; */
+  margin-left: 100px;
+}
+.caption{
+  font-family: monospace;
+  margin-right:170px;
+  margin-top: 12px;
+  float: right;
+
+
+}
+
+.imganimation img{
+  border-radius: 11px;
+  width: 1180px;
+  height: 350px;
+  margin-left: 7%;
+  background-color: black;
+
+}
+
+.ourteam{
+  text-align:center;
+  padding-top: 72px;
+  font-family: fantasy;
+  font-variant: small-caps;
+  font-size: 83px;
+  letter-spacing: 5px;
+  background-color: wheat;
+  color: black;
+  overflow: hidden;
+
+}

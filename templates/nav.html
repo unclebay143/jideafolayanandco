@@ -1,0 +1,22 @@
+{%  extends 'base.html' %}
+{% block load %}
+<div class="message">
+  <h4>JIDE AFOLAYAN & CO.</h4>
+  <p>CHARTERED ACCOUNTANTS & PRACTITIONERS</p>
+</div>
+<div class="navtop">
+  <ul>
+    <li><a href="{% url 'index' %}">HOME</a></li>
+    <li><a href="{% url 'team' %}">THE TEAM</a></li>
+    <li><a href="{% url 'contact' %}">CONTACT</a></li>
+    <li class="navtopright"><a href="{% url 'testimony' %}">TESTIMONIES</a></li>
+    <li class="navtopright"><a href="{% url 'services' %}">SERVICES</a></li>
+    <li class="navtopright"><a href="{% url 'about' %}">ABOUT</a></li>
+    
+
+
+  </ul>
+
+
+</div>
+{% endblock %}
