@@ -23,11 +23,9 @@
 }
 .navtop li{
   display: inline;
-  color: white;
-
-}
+  }
 .navtop li a{
-  color: green;
+  color: white;
   padding: 12px;
   font-size: 21px;
   text-decoration: none;
@@ -73,7 +71,7 @@ footer{
 }
 .content a:hover, .author a:hover{
   text-decoration: none;
-  font-size: 17px;
+  font-size: 14px;
   color: gold;
 }
 .author{

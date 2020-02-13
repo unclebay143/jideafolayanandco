@@ -55,7 +55,6 @@ body{
 .info{
   text-align: center;
   padding-top: 48px;
-  color: ;
   padding-bottom:200px;
   font-family: cursive;
 
@@ -64,11 +63,11 @@ body{
   color:gold;
   text-decoration: none;
   font-size: 19px;
-}
+  }
+
 .info a:hover{
-  color:gold;
+  color:red;
   text-decoration: none;
-  font-size: 21px;
 }
 
 
@@ -81,13 +80,11 @@ body{
   /* padding: 12px; */
   margin-left: 100px;
 }
-.caption{
+.teamcaption{
   font-family: monospace;
-  margin-right:170px;
+  margin-right:90px;
   margin-top: 12px;
   float: right;
-
-
 }
 
 .imganimation img{
