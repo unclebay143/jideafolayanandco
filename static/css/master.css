@@ -50,15 +50,6 @@ body{
     100% { text-indent: -55em }
 
 }
-
-}
-.info{
-  text-align: center;
-  padding-top: 48px;
-  padding-bottom:200px;
-  font-family: cursive;
-
-}
 .info a{
   color:gold;
   text-decoration: none;
@@ -69,9 +60,6 @@ body{
   color:red;
   text-decoration: none;
 }
-
-
-
 .jideafolayan img{
   border-radius: 114px;
   width: 190px;
@@ -108,3 +96,6 @@ body{
   overflow: hidden;
 
 }
+
+
+/*IMAGE ANIMATION*/
