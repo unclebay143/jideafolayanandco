@@ -34,3 +34,7 @@ def Team(request):
 #Services function()
 def Services(request):
     return render(request, 'services.html')
+
+#Internship function()
+def Internship(request):
+    return render(request, 'internship.html')

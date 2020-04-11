@@ -71,10 +71,10 @@ footer{
 }
 .content a:hover, .author a:hover{
   text-decoration: none;
-  font-size: 14px;
+  font-size: px;
   color: gold;
 }
 .author{
-  color:black;
+  color:white;
   text-align: center;
 }
