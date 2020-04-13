@@ -16,7 +16,7 @@ def About(request):
 
 #Ourwork function
 def Ourwork(request):
-    return render(request, 'ourwork.html')
+    return render(request, 'ourworks.html')
 
 #Testimony function
 def Testimony(request):

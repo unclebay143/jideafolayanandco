@@ -2,7 +2,41 @@
 {% block title %} Testimonies- Jide Afolayan & Co. {% endblock %}
 {% block load %}
 {% include 'nav.html' %}
-<div class="container">
+<style>
+  .container1{
+    margin: 10px;
+  }
+  .test .img{
+    display: block;
+    /*margin: 0 auto;*/
+    max-width: ;
+    padding: 55px;
+  }
+  .test{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+  -moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+}
+
+.test:hover {
+  transform: scale(2.05); 
+}
+
+p{
+  font-style: oblique;
+  font-size: small;
+  text-align: center;
+}
+</style>
+<div class="container1">
   <div class="row">
     <div class="col-md-6">
       <div class="test">

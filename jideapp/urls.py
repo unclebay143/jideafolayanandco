@@ -3,8 +3,8 @@ from .views import Maintain, Home, About, Ourwork, Testimony, Team, Contact, Ser
 
 
 urlpatterns = [
-path('', Maintain, name="maintain"),
-path('index', Home, name="index"),
+path('maintain', Maintain, name="maintain"),
+path('', Home, name="index"),
 path('about/', About, name="about"),
 path('ourwork', Ourwork, name="ourwork"),
 path('testimony', Testimony, name="testimony"),
