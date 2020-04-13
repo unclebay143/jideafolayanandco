@@ -1,1 +1,1 @@
-web: gunicorn jideafolayan.wsgi
+web: gunicorn jideafolayanandco.wsgi

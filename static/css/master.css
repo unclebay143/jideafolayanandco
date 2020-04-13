@@ -5,13 +5,11 @@ body{
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .trainalert{
-  background-color:;
     width:990px ; /* What I call the see-through window below */
     margin: 0 auto;
     overflow: hidden;
     white-space: nowrap;
     font-size:23px;
-
     color:teal;
     text-shadow: #000 1px 1px 0;
     box-sizing: border-box;
